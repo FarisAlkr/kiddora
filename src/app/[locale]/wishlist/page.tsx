@@ -15,7 +15,7 @@ export async function generateMetadata({
     {
       title: locale === 'he' ? 'רשימת משאלות - מינימודה' :
              locale === 'ar' ? 'قائمة الأمنيات - مينيمودا' :
-             'Wishlist - Minimoda',
+             'Wishlist - Kiddora',
       description: locale === 'he' ? 'רשימת המוצרים שתרצו לרכוש בעתיד' :
                    locale === 'ar' ? 'قائمة المنتجات التي تود شراؤها في المستقبل' :
                    'Your saved products for future purchases',

@@ -76,7 +76,7 @@ export function AdminNavigation() {
             </div>
             <div className="hidden md:block">
               <p className="text-sm font-medium text-gray-900">Admin</p>
-              <p className="text-xs text-gray-600">{adminData?.email || 'admin@minimoda.com'}</p>
+              <p className="text-xs text-gray-600">{adminData?.email || 'admin@Kiddora.com'}</p>
             </div>
           </div>
         </div>

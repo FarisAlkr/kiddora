@@ -344,7 +344,7 @@ INSERT INTO products (
     {"name": {"he": "ורוד", "ar": "وردي", "en": "Pink"}, "hex": "#F8BBD9"}
   ]',
   ARRAY['/images/products/tshirt-white-front.jpg', '/images/products/tshirt-white-back.jpg'],
-  'MINIMODA', 'cotton_blend', ARRAY['basic', 'cotton', 'comfortable']
+  'KIDDORA', 'cotton_blend', ARRAY['basic', 'cotton', 'comfortable']
 );
 
 -- Insert inventory for the sample product with proper color handling

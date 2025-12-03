@@ -1,5 +1,5 @@
 # ===============================================
-# ENVIRONMENT VARIABLES TEMPLATE FOR MINIMODA
+# ENVIRONMENT VARIABLES TEMPLATE FOR KIDDORA
 # ===============================================
 # 
 # Copy this file to .env.local and fill in your actual values
@@ -31,7 +31,7 @@ SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
 # These are optional but recommended for production
 
 # Database URL (if using direct PostgreSQL connection)
-# DATABASE_URL=postgresql://postgres:password@localhost:5432/minimoda
+# DATABASE_URL=postgresql://postgres:password@localhost:5432/Kiddora
 
 # NextAuth Configuration (for authentication)
 # NEXTAUTH_SECRET=your_nextauth_secret_here

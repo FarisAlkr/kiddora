@@ -77,7 +77,7 @@ function transformProduct(product) {
     gender: product.category === 'girls' ? 'female' : 
             product.category === 'boys' ? 'male' : 
             product.category === 'baby' ? 'unisex' : 'unisex',
-    brand: product.brand || 'MINIMODA',
+    brand: product.brand || 'KIDDORA',
     sku: sku,
     barcode: null,
     material: 'cotton_blend',

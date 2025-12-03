@@ -47,7 +47,7 @@ export default function SettingsAdminPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Store Name</label>
                   <input 
                     type="text" 
-                    defaultValue="Minimoda" 
+                    defaultValue="Kiddora" 
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-coral-500 focus:border-coral-500"
                   />
                 </div>
@@ -55,7 +55,7 @@ export default function SettingsAdminPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Store Email</label>
                   <input 
                     type="email" 
-                    defaultValue="hello@minimoda.com" 
+                    defaultValue="hello@Kiddora.com" 
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-coral-500 focus:border-coral-500"
                   />
                 </div>
@@ -182,7 +182,7 @@ export default function SettingsAdminPage() {
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Auto-reply Message</label>
                   <textarea 
-                    defaultValue="Hello! Thanks for contacting Minimoda. We'll get back to you soon!"
+                    defaultValue="Hello! Thanks for contacting Kiddora. We'll get back to you soon!"
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-coral-500 focus:border-coral-500"
                     rows={3}
                   />
@@ -301,7 +301,7 @@ export default function SettingsAdminPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Admin Email</label>
                   <input 
                     type="email" 
-                    defaultValue="admin@minimoda.com" 
+                    defaultValue="admin@Kiddora.com" 
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-coral-500 focus:border-coral-500"
                   />
                 </div>

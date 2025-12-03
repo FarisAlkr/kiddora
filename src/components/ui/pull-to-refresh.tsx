@@ -58,7 +58,7 @@ export function PullToRefresh({ onRefresh, children }: PullToRefreshProps) {
         )}
       </AnimatePresence>
 
-      {/* Custom Minimoda logo animation for refresh */}
+      {/* Custom Kiddora logo animation for refresh */}
       <AnimatePresence>
         {isRefreshing && (
           <motion.div

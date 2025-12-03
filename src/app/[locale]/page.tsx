@@ -12,13 +12,13 @@ export async function generateMetadata({
     {
       title: locale === 'he' ? 'מינימודה - אופנת ילדים איכותית' : 
              locale === 'ar' ? 'مينيمودا - أزياء أطفال عالية الجودة' : 
-             'Minimoda - Premium Kids Fashion',
+             'Kiddora - Premium Kids Fashion',
       description: locale === 'he' ? 'גלו אופנת ילדים איכותית במינימודה. בגדים, צעצועים ואביזרים לילדים בכל הגילאים' :
                    locale === 'ar' ? 'اكتشف أزياء الأطفال المتميزة في مينيمودا. ملابس وألعاب واكسسوارات للأطفال من جميع الأعمار' :
-                   'Discover premium kids fashion at Minimoda. Quality clothing, toys, and accessories for children of all ages',
+                   'Discover premium kids fashion at Kiddora. Quality clothing, toys, and accessories for children of all ages',
       keywords: locale === 'he' ? ['בגדי ילדים', 'אופנת ילדים', 'צעצועים', 'מינימודה'] :
                 locale === 'ar' ? ['ملابس أطفال', 'أزياء أطفال', 'ألعاب', 'مينيمودا'] :
-                ['kids fashion', 'children clothing', 'toys', 'minimoda'],
+                ['kids fashion', 'children clothing', 'toys', 'Kiddora'],
       type: 'website'
     },
     locale

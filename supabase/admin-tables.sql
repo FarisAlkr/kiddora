@@ -1,4 +1,4 @@
--- Admin tables for Minimoda admin panel
+-- Admin tables for Kiddora admin panel
 -- Run this if you already have the main schema and just need admin tables
 
 -- Admin users table

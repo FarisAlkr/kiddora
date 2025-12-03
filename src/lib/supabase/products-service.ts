@@ -36,7 +36,7 @@ function transformDbProduct(dbProduct: any, locale: Locale = 'en'): Product {
     isNew: dbProduct.is_new || false,
     featured: dbProduct.is_featured,
     age: dbProduct.age_group || '2-8',
-    brand: dbProduct.brand || 'Minimoda',
+    brand: dbProduct.brand || 'Kiddora',
     stock: dbProduct.stock || 0,
     tags: dbProduct.tags || [],
     createdAt: dbProduct.created_at,

@@ -46,8 +46,8 @@ async function setupAdmin() {
     // Create the admin user in Supabase Auth
     console.log('👤 Creating admin user in Supabase Auth...')
     const { data: authUser, error: authError } = await supabase.auth.admin.createUser({
-      email: 'admin@minimoda.com',
-      password: 'minimoda2024',
+      email: 'admin@Kiddora.com',
+      password: 'Kiddora2024',
       email_confirm: true
     })
 
@@ -65,7 +65,7 @@ async function setupAdmin() {
     const { error: profileError } = await supabase
       .from('admin_users')
       .upsert({
-        email: 'admin@minimoda.com',
+        email: 'admin@Kiddora.com',
         role: 'super_admin',
         permissions: [
           'products.read',
@@ -95,8 +95,8 @@ async function setupAdmin() {
 
     console.log('✅ Admin setup completed successfully!')
     console.log('\n📊 Admin Credentials:')
-    console.log('- Email: admin@minimoda.com')
-    console.log('- Password: minimoda2024')
+    console.log('- Email: admin@Kiddora.com')
+    console.log('- Password: Kiddora2024')
     console.log('- Role: super_admin')
     console.log('\n🔗 Admin Login: http://localhost:3000/admin/login')
 

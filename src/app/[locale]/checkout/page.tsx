@@ -15,10 +15,10 @@ export async function generateMetadata({
     {
       title: locale === 'he' ? 'תשלום | מינימודה' : 
              locale === 'ar' ? 'الدفع | مينيمودا' : 
-             'Checkout | Minimoda',
+             'Checkout | Kiddora',
       description: locale === 'he' ? 'השלם את הרכישה שלך בצורה מאובטחת במינימודה' :
                    locale === 'ar' ? 'أكمل عملية الشراء بأمان في مينيمودا' :
-                   'Complete your secure purchase at Minimoda',
+                   'Complete your secure purchase at Kiddora',
       noIndex: true, // Don't index checkout pages for SEO
       type: 'website'
     },

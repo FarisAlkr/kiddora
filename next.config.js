@@ -66,7 +66,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'minimoda.vercel.app',
+        hostname: 'Kiddora.vercel.app',
         port: '',
         pathname: '/**',
       }

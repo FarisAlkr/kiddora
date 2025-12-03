@@ -269,7 +269,7 @@ export async function generateMetadata({
   // Validate category
   if (!validCategories.includes(slug)) {
     return {
-      title: 'Category Not Found | Minimoda',
+      title: 'Category Not Found | Kiddora',
       description: 'The requested category could not be found.'
     }
   }
@@ -280,7 +280,7 @@ export async function generateMetadata({
   
   if (!categoryData) {
     return {
-      title: 'Category Not Found | Minimoda',
+      title: 'Category Not Found | Kiddora',
       description: 'The requested category could not be found.'
     }
   }
@@ -291,7 +291,7 @@ export async function generateMetadata({
 
   return SEOService.generateMetadata(
     {
-      title: `${title} | Minimoda`,
+      title: `${title} | Kiddora`,
       description,
       keywords,
       image: categoryData.image,

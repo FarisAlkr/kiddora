@@ -12,7 +12,7 @@ export async function generateMetadata({
     {
       title: locale === 'he' ? 'כל המוצרים | מינימודה' : 
              locale === 'ar' ? 'جميع المنتجات | مينيمودا' : 
-             'All Products | Minimoda',
+             'All Products | Kiddora',
       description: locale === 'he' ? 'עיינו בכל המוצרים שלנו - בגדי ילדים, צעצועים ואביזרים איכותיים' :
                    locale === 'ar' ? 'تصفح جميع منتجاتنا - ملابس أطفال وألعاب واكسسوارات عالية الجودة' :
                    'Browse all our products - quality kids clothing, toys, and accessories',

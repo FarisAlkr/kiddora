@@ -2,7 +2,7 @@
 
 Date : 2025-08-14 14:31:31
 
-Directory /home/qasawa/Minimoda
+Directory /home/qasawa/Kiddora
 
 Total : 148 files,  52594 codes, 1599 comments, 3243 blanks, all 57436 lines
 

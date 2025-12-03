@@ -252,7 +252,7 @@ Total: ${total} ${currency}
 
 We'll send you updates as your order is processed and shipped.
 
-Thank you for choosing Minimoda! 💝
+Thank you for choosing Kiddora! 💝
 
 Need help? Reply to this message.`
 
@@ -278,7 +278,7 @@ Expected delivery: 2-5 business days
 
 Track your package and stay updated!
 
-Minimoda Team 💝`
+Kiddora Team 💝`
 
     return this.sendTextMessage(customerPhone, message)
   }
@@ -295,7 +295,7 @@ ${message}
 
 Reply STOP to unsubscribe from marketing messages.
 
-Minimoda Team 💝`
+Kiddora Team 💝`
 
     return this.sendTextMessage(customerPhone, personalizedMessage)
   }
@@ -360,13 +360,13 @@ Minimoda Team 💝`
     const response = `Thanks for contacting us! 📱
 
 To check your order status:
-1. Visit our website: minimoda.com
+1. Visit our website: Kiddora.com
 2. Go to "My Account" → "Orders"
 3. Or call us: +972-XX-XXX-XXXX
 
 Our team will help you track your order!
 
-Minimoda Support Team 💝`
+Kiddora Support Team 💝`
 
     await this.sendTextMessage(customerPhone, response)
   }
@@ -378,14 +378,14 @@ Minimoda Support Team 💝`
 We accept returns within 30 days of purchase.
 
 Process:
-1. Visit: minimoda.com/returns
+1. Visit: Kiddora.com/returns
 2. Fill out the return form
 3. Print the prepaid label
 4. Ship it back to us
 
 Questions? Our support team is here to help!
 
-Minimoda Support Team 💝`
+Kiddora Support Team 💝`
 
     await this.sendTextMessage(customerPhone, response)
   }
@@ -402,7 +402,7 @@ You'll still receive important order updates.
 To re-subscribe, reply "START" anytime.
 
 Thank you!
-Minimoda Team`
+Kiddora Team`
 
     await this.sendTextMessage(customerPhone, response)
   }
@@ -411,19 +411,19 @@ Minimoda Team`
   private async handleGeneralInquiry(customerPhone: string): Promise<void> {
     const response = `Hi there! 👋
 
-Thanks for reaching out to Minimoda!
+Thanks for reaching out to Kiddora!
 
 Our support hours:
 Sunday-Thursday: 9 AM - 6 PM (IST)
 
 For immediate help:
-📧 Email: support@minimoda.com
+📧 Email: support@Kiddora.com
 📞 Phone: +972-XX-XXX-XXXX
-🌐 Website: minimoda.com
+🌐 Website: Kiddora.com
 
 We'll get back to you as soon as possible!
 
-Minimoda Support Team 💝`
+Kiddora Support Team 💝`
 
     await this.sendTextMessage(customerPhone, response)
   }

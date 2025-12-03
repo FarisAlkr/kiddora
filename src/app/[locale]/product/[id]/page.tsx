@@ -18,7 +18,7 @@ export async function generateMetadata({
     
     if (!product) {
       return {
-        title: 'Product Not Found | Minimoda',
+        title: 'Product Not Found | Kiddora',
         description: 'The requested product could not be found.'
       }
     }
@@ -31,7 +31,7 @@ export async function generateMetadata({
         currency: 'ILS',
         images: product.images,
         category: product.category,
-        brand: product.brand || 'Minimoda',
+        brand: product.brand || 'Kiddora',
         sku: product.id,
         availability: (product.stock ?? 0) > 0 ? 'in_stock' : 'out_of_stock',
         condition: 'new'
@@ -41,8 +41,8 @@ export async function generateMetadata({
   } catch (error) {
     console.error('Error generating product metadata:', error)
     return {
-      title: 'Product | Minimoda',
-      description: 'Premium kids fashion at Minimoda'
+      title: 'Product | Kiddora',
+      description: 'Premium kids fashion at Kiddora'
     }
   }
 }

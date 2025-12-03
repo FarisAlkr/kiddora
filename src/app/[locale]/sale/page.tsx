@@ -12,10 +12,10 @@ export async function generateMetadata({
     {
       title: locale === 'he' ? 'מבצעים | מינימודה' : 
              locale === 'ar' ? 'التخفيضات | مينيمودا' : 
-             'Sale | Minimoda',
+             'Sale | Kiddora',
       description: locale === 'he' ? 'מוצרי אופנה לילדים במחירים מוזלים - עד 70% הנחה במינימודה' :
                    locale === 'ar' ? 'منتجات أزياء الأطفال بأسعار مخفضة - خصم يصل إلى 70% في مينيمودا' :
-                   'Kids fashion on sale - up to 70% off at Minimoda',
+                   'Kids fashion on sale - up to 70% off at Kiddora',
       keywords: locale === 'he' ? ['מבצעים', 'הנחות', 'בגדי ילדים זולים', 'מחירים מוזלים'] :
                 locale === 'ar' ? ['تخفيضات', 'خصومات', 'ملابس أطفال رخيصة', 'أسعار مخفضة'] :
                 ['sale', 'discounts', 'kids clothes on sale', 'reduced prices'],

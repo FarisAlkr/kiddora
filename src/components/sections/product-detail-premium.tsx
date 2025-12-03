@@ -41,7 +41,7 @@ export function ProductDetailPremium({
           category: product.category,
           price: product.price,
           currency: 'ILS',
-          brand: product.brand || 'Minimoda'
+          brand: product.brand || 'Kiddora'
         })
       } catch (error) {
         console.error('Error tracking product view:', error)
@@ -68,7 +68,7 @@ export function ProductDetailPremium({
         category: product.category,
         price: product.price,
         currency: 'ILS',
-        brand: product.brand || 'Minimoda',
+        brand: product.brand || 'Kiddora',
         event_type: 'add_to_cart',
         quantity: quantity,
         selected_size: selectedSize,

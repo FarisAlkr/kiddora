@@ -1,4 +1,4 @@
-# 🎯 Minimoda - Premium Kids Clothing E-commerce
+# 🎯 Kiddora - Premium Kids Clothing E-commerce
 
 **LAUNCH READY** premium children's fashion e-commerce platform built for the Israeli market with full multilingual support (Hebrew RTL, Arabic RTL, English LTR).
 
@@ -13,7 +13,7 @@
 ```bash
 # Clone and install
 git clone <your-repo>
-cd minimoda
+cd Kiddora
 npm install
 
 # Set up environment variables

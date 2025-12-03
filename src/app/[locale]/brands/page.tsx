@@ -14,7 +14,7 @@ export async function generateMetadata({
     {
       title: locale === 'he' ? 'מותגים - מינימודה' :
              locale === 'ar' ? 'العلامات التجارية - مينيمودا' :
-             'Brands - Minimoda',
+             'Brands - Kiddora',
       description: locale === 'he' ? 'גלו את המותגים המובילים שלנו לילדים' :
                    locale === 'ar' ? 'اكتشف علاماتنا التجارية الرائدة للأطفال' :
                    'Discover our leading brands for children',

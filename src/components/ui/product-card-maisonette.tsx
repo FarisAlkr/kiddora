@@ -79,7 +79,7 @@ export function ProductCardMaisonette({
         category: product.category,
         price: product.price,
         currency: 'ILS',
-        brand: product.brand || 'Minimoda',
+        brand: product.brand || 'Kiddora',
         event_type: 'product_click'
       })
     } catch (error) {

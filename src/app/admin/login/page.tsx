@@ -87,7 +87,7 @@ export default function AdminLoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-navy-500 focus:border-transparent transition-all"
-                  placeholder="admin@minimoda.com"
+                  placeholder="admin@Kiddora.com"
                   required
                 />
               </div>
@@ -143,8 +143,8 @@ export default function AdminLoginPage() {
           <div className="mt-6 p-4 bg-navy-50 rounded-xl">
             <p className="text-xs text-navy-600 text-center">
               <strong>Demo Credentials:</strong><br />
-              Email: admin@minimoda.com<br />
-              Password: minimoda2024
+              Email: admin@Kiddora.com<br />
+              Password: Kiddora2024
             </p>
           </div>
         </motion.div>

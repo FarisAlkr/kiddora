@@ -1,6 +1,6 @@
 {
-  "name": "Minimoda - Premium Kids Fashion",
-  "short_name": "Minimoda",
+  "name": "Kiddora - Premium Kids Fashion",
+  "short_name": "Kiddora",
   "description": "World-class children's clothing store with premium quality and beautiful designs. Shop the latest trends for kids of all ages.",
   "theme_color": "#FF6B5A",
   "background_color": "#FFFFFF",
@@ -17,14 +17,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Minimoda homepage on desktop"
+      "label": "Kiddora homepage on desktop"
     },
     {
       "src": "/images/pwa/screenshot-narrow.png", 
       "sizes": "390x844",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Minimoda homepage on mobile"
+      "label": "Kiddora homepage on mobile"
     }
   ],
   "icons": [
@@ -134,7 +134,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://minimoda.vercel.app/manifest.json"
+      "url": "https://Kiddora.vercel.app/manifest.json"
     }
   ],
   "prefer_related_applications": false,

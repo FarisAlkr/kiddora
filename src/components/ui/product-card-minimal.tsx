@@ -48,7 +48,7 @@ export function ProductCardMinimal({
         category: product.category,
         price: product.price,
         currency: 'ILS',
-        brand: product.brand || 'Minimoda',
+        brand: product.brand || 'Kiddora',
         event_type: 'product_click'
       })
     } catch (error) {
@@ -108,7 +108,7 @@ export function ProductCardMinimal({
           
           {/* Brand Name - Small caps */}
           <p className="text-xs font-nav text-neutral-400 mb-1 tracking-wide">
-            MINIMODA
+            KIDDORA
           </p>
           
           {/* Product Name */}

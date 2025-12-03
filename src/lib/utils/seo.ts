@@ -36,12 +36,12 @@ export interface PageSEO {
 }
 
 const DEFAULT_CONFIG: SEOConfig = {
-  siteName: 'Minimoda',
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://minimoda.com',
-  defaultTitle: 'Minimoda - Premium Kids Fashion',
-  defaultDescription: 'Discover premium kids fashion at Minimoda. Quality clothing, toys, and accessories for children of all ages.',
+  siteName: 'Kiddora',
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://Kiddora.com',
+  defaultTitle: 'Kiddora - Premium Kids Fashion',
+  defaultDescription: 'Discover premium kids fashion at Kiddora. Quality clothing, toys, and accessories for children of all ages.',
   defaultImage: '/images/og-default.jpg',
-  twitterHandle: '@minimoda',
+  twitterHandle: '@Kiddora',
   locale: 'he-IL',
   locales: ['he', 'ar', 'en']
 }
@@ -219,9 +219,9 @@ export class SEOService {
       url: config.siteUrl,
       logo: `${config.siteUrl}/logo.png`,
       sameAs: [
-        'https://www.facebook.com/minimoda',
-        'https://www.instagram.com/minimoda',
-        'https://twitter.com/minimoda'
+        'https://www.facebook.com/Kiddora',
+        'https://www.instagram.com/Kiddora',
+        'https://twitter.com/Kiddora'
       ],
       contactPoint: {
         '@type': 'ContactPoint',
@@ -311,8 +311,8 @@ export class SEOService {
         }
       ],
       sameAs: [
-        'https://www.facebook.com/minimoda',
-        'https://www.instagram.com/minimoda'
+        'https://www.facebook.com/Kiddora',
+        'https://www.instagram.com/Kiddora'
       ]
     }
   }
@@ -456,7 +456,7 @@ export const PageSEO = {
   home: (locale: string): PageSEO => ({
     title: locale === 'he' ? 'מינימודה - אופנת ילדים איכותית' :
            locale === 'ar' ? 'مينيمودا - أزياء أطفال عالية الجودة' :
-           'Minimoda - Premium Kids Fashion',
+           'Kiddora - Premium Kids Fashion',
     description: locale === 'he' ? 'גלו את קולקציית הילדים הייחודית שלנו - בגדים איכותיים, צעצועים ואקססוריז לילדים בכל הגילאים' :
                  locale === 'ar' ? 'اكتشف مجموعة الأطفال الفريدة لدينا - ملابس عالية الجودة وألعاب وإكسسوارات للأطفال من جميع الأعمار' :
                  'Discover our unique kids collection - quality clothing, toys, and accessories for children of all ages',
@@ -466,7 +466,7 @@ export const PageSEO = {
   products: (locale: string): PageSEO => ({
     title: locale === 'he' ? 'מוצרים - מינימודה' :
            locale === 'ar' ? 'المنتجات - مينيمودا' :
-           'Products - Minimoda',
+           'Products - Kiddora',
     description: locale === 'he' ? 'עיינו במגוון הרחב של מוצרי הילדים שלנו - בגדים, צעצועים ואקססוריז איכותיים' :
                  locale === 'ar' ? 'تصفح مجموعتنا الواسعة من منتجات الأطفال - ملابس وألعاب وإكسسوارات عالية الجودة' :
                  'Browse our wide range of kids products - quality clothing, toys, and accessories',
@@ -474,10 +474,10 @@ export const PageSEO = {
   }),
 
   category: (categoryName: string, locale: string): PageSEO => ({
-    title: `${categoryName} - ${locale === 'he' ? 'מינימודה' : locale === 'ar' ? 'مينيمودا' : 'Minimoda'}`,
+    title: `${categoryName} - ${locale === 'he' ? 'מינימודה' : locale === 'ar' ? 'مينيمودا' : 'Kiddora'}`,
     description: locale === 'he' ? `מוצרי ${categoryName} איכותיים לילדים במינימודה` :
                  locale === 'ar' ? `منتجات ${categoryName} عالية الجودة للأطفال في مينيمودا` :
-                 `Quality ${categoryName} products for kids at Minimoda`,
+                 `Quality ${categoryName} products for kids at Kiddora`,
     type: 'website'
   })
 }

@@ -140,4 +140,4 @@ The platform is now:
 - ✅ Inventory management active
 - ✅ Customer support enabled
 
-**🎉 MINIMODA IS LIVE AND READY FOR CUSTOMERS! 🎉**
+**🎉 KIDDORA IS LIVE AND READY FOR CUSTOMERS! 🎉**

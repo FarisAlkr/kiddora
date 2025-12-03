@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Offline - Minimoda',
+  title: 'Offline - Kiddora',
   description: 'You are currently offline. Some features may not be available.',
 }
 
